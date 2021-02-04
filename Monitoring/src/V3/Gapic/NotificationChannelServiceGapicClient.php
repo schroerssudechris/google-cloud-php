@@ -141,7 +141,7 @@ class NotificationChannelServiceGapicClient
             'descriptorsConfigPath' => __DIR__.'/../resources/notification_channel_service_descriptor_config.php',
             'gcpApiConfigPath' => __DIR__.'/../resources/notification_channel_service_grpc_config.json',
             'credentialsConfig' => [
-                'scopes' => self::$serviceScopes,
+                'defaultScopes' => self::$serviceScopes,
             ],
             'transportConfig' => [
                 'rest' => [
